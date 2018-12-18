@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109126" started-at="2018-12-17T16:40:35Z" finished-at="2018-12-17T16:42:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="109126" started-at="2018-12-17T16:40:35Z" finished-at="2018-12-17T16:42:24Z">
+      <class name="main.ActionKeywords">
+        <test-method status="PASS" signature="getTestData()[pri:0, instance:main.ActionKeywords@56ef9176]" name="getTestData" is-config="true" duration-ms="2264" started-at="2018-12-17T16:40:32Z" finished-at="2018-12-17T16:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method status="PASS" signature="CozyDailyRegression()[pri:0, instance:main.ActionKeywords@56ef9176]" name="CozyDailyRegression" duration-ms="104034" started-at="2018-12-17T16:40:35Z" finished-at="2018-12-17T16:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CozyDailyRegression -->
+        <test-method status="PASS" signature="testNG()[pri:0, instance:main.ActionKeywords@56ef9176]" name="testNG" duration-ms="13" started-at="2018-12-17T16:42:19Z" finished-at="2018-12-17T16:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNG -->
+        <test-method status="PASS" signature="timeout()[pri:0, instance:main.ActionKeywords@56ef9176]" name="timeout" duration-ms="5010" started-at="2018-12-17T16:42:19Z" finished-at="2018-12-17T16:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeout -->
+        <test-method status="PASS" signature="arrangeFiles()[pri:0, instance:main.ActionKeywords@56ef9176]" name="arrangeFiles" is-config="true" duration-ms="43" started-at="2018-12-17T16:42:24Z" finished-at="2018-12-17T16:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrangeFiles -->
+      </class> <!-- main.ActionKeywords -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+
+
+	<test name="ActionKeywords">
+		<classes>
+			<class name="main.ActionKeywords">
+			<methods>
+					<include name="CozyDailyRegression" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	
+</suite> 

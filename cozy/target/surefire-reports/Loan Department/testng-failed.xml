@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" verbose="0" name="Failed suite [Loan Department]" parallel="tests">
+  <test name="ActionKeywords(failed)" parallel="tests">
+    <classes>
+      <class name="main.ActionKeywords">
+        <methods>
+          <include name="CozyDailyRegression"/>
+          <include name="arrangeFiles"/>
+          <include name="getTestData"/>
+        </methods>
+      </class> <!-- main.ActionKeywords -->
+    </classes>
+  </test> <!-- ActionKeywords(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

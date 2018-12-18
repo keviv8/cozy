@@ -1,0 +1,17 @@
+# Created at 2018-12-13T16:35:01.505
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-12-13T16:35:02.334
+Unexpected IOException with stream: Page load time 4133 in milli seconds and 4 in seconds
+
+
+# Created at 2018-12-13T16:35:02.355
+Unexpected IOException with stream: Page load time 4154 in milli seconds and 4.154 in float seconds
+
+
